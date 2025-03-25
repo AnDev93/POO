@@ -53,13 +53,13 @@
     }
 
     class Empleado {
-        private object $persona;
+        private object $Persona;
         private float $Salario;
         private string $FechaIngreso;
         private string $Area;
         private string $Cargo;
-        public function __construct(Persona $persona, float $salario, string $fechaIngreso, string $area, string $cargo){
-            $this->persona=$persona;
+        public function __construct(Persona $Persona, float $salario, string $fechaIngreso, string $area, string $cargo){
+            $this->Persona=$Persona;
             $this->Salario=$salario;
             $this->FechaIngreso=$fechaIngreso;
             $this->Area=$area;
@@ -68,7 +68,7 @@
         }
 
         public function MostrarInformacion(){
-            $respuesta=$this->persona->MostrarInformacion();
+            $respuesta=$this->Persona->MostrarInformacion();
             $respuesta.="Salario: ".$this->Salario."\n";
             $respuesta.="Fecha Ingreso: ".$this->FechaIngreso."\n";
             $respuesta.="Area: ".$this->Area."\n";
