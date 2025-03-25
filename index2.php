@@ -33,7 +33,7 @@
             return $respuesta;
         }
 
-        //
+        // getter y setter
         //get
         public function getDireccion(){
             return $this->Direccion;
