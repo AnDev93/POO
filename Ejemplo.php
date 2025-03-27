@@ -10,7 +10,6 @@ class Persona{
     private string $Telefono = "0414-1234567";
 
     //Metodos
-
     public function Saludar(){
         $respuesta="Hola, como estas? mi nombre es ".$this->Nombre;
         return $respuesta;
