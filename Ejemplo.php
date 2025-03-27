@@ -24,6 +24,7 @@ class Persona{
         $respuesta.="Telefono: ".$this->Telefono."\n";
         return $respuesta;
     }
+    
     //getter y setter
     public function getDireccion(){
         return $this->Direccion;
