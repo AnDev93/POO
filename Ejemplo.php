@@ -2,12 +2,22 @@
 class Persona{
     // Atributos
     // public private protected
-    public string $Nombre = "Anderso";
-    public string $Apellido = "Sanchez";
-    public int $Edad = 30;
-    public string $Sexo = "Masculino";
-    protected string $Direccion = "Calle 123";
-    private string $Telefono = "0414-1234567";
+    public string $Nombre;
+    public string $Apellido;
+    public int $Edad;
+    public string $Sexo;
+    protected string $Direccion;
+    private string $Telefono;
+
+    //Metodo Especial
+    public function __construct(string $Nombre, string $Apellido, int $Edad, string $Sexo, string $Direccion, string $Telefono){
+        $this->Nombre=$Nombre;
+        $this->Apellido=$Apellido;
+        $this->Edad=$Edad;
+        $this->Sexo=$Sexo;
+        $this->Direccion=$Direccion;
+        $this->Telefono=$Telefono;
+    }
 
     //Metodos
     public function Saludar(){
