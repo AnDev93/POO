@@ -9,6 +9,8 @@ class Persona{
     protected string $Direccion;
     private string $Telefono;
 
+    // Constructor
+
     //Metodo Especial
     public function __construct(string $Nombre, string $Apellido, int $Edad, string $Sexo, string $Direccion, string $Telefono){
         $this->Nombre=$Nombre;
@@ -53,3 +55,5 @@ class Persona{
     }
 
 }
+$persona = new Persona("Juan", "Perez", 25, "Masculino", "Calle Falsa 123", "1234567890");
+echo $persona->Saludar()."\n";

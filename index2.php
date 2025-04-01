@@ -18,6 +18,7 @@
            $this->Telefono=$telefono;
 
         }
+        
         public function Saludar(){
             $respuesta="hola mi nombre es ".$this->Nombre." tengo ".$this->Edad." año de sexo ".$this->Sexo;
             return $respuesta;
@@ -58,6 +59,7 @@
         private string $FechaIngreso;
         private string $Area;
         private string $Cargo;
+
         public function __construct(Persona $Persona, float $salario, string $fechaIngreso, string $area, string $cargo){
             $this->Persona=$Persona;
             $this->Salario=$salario;
