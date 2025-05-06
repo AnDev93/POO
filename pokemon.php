@@ -23,7 +23,7 @@ class Pokemon{
     }
 
     public function mostrarInformacion(){
-        echo "Pokemon: ".$this->Nombre." Tipo: ".$this->Tipo." Nivel: ".$this->Nivel." /n";
+        echo "Pokemon: ".$this->Nombre." Tipo: ".$this->Tipo." Nivel: ".$this->Nivel." \n";
     }
 
 }
