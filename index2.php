@@ -1,5 +1,4 @@
-<?php   
-
+<?php 
     class Persona {
         //Atributo
         public string $Nombre;
