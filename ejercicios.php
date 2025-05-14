@@ -1,0 +1,161 @@
+ejercicios para practicar:
+1 Sistema de Vehículos
+    - Crea una clase base Vehiculo con propiedades como marca, modelo y velocidadMaxima.
+    - Define métodos como acelerar() y frenar().
+    - Crea clases derivadas Auto y Moto que sobrescriban el método acelerar() con diferentes implementaciones.
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de vehículo.
+
+2 Inventario de Productos
+    - Diseña una clase Producto con atributos como nombre, precio y stock.
+    - Crea clases Electronico y Ropa que hereden de Producto y agreguen atributos específicos.
+    - Implementa un método mostrarInformacion() que se comporte de manera diferente en cada clase.
+
+3 Batalla Pokémon 
+    - Crea una clase Pokemon con atributos como nombre, tipo y ataqueBase.
+    - Define un método atacar() que pueda ser sobrescrito en clases derivadas como FuegoPokemon y AguaPokemon
+    - aplicando ventajas de tipo.
+
+4 Sistema de Biblioteca
+    - Diseña una clase Libro con atributos como titulo, autor y ISBN.
+    - Crea clases derivadas como LibroDigital y LibroFisico que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+5 Sistema de Gestión de Empleados
+    - Crea una clase base Empleado con atributos como nombre, salario y puesto.
+    - Define clases derivadas como Gerente y Vendedor que sobrescriban un método calcularBonificacion().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de empleado.
+
+6 Sistema de Gestión de Estudiantes
+    - Diseña una clase base Estudiante con atributos como nombre, edad y promedio.
+    - Crea clases derivadas como EstudianteUniversitario y EstudiantePreparatorio que agreguen atributos específicos.
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de estudiante.    
+
+7 Sistema de Gestión de Animales
+    - Crea una clase base Animal con atributos como nombre, especie y edad.
+    - Define clases derivadas como Perro y Gato que sobrescriban un método hacerSonido().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de animal. 
+
+8 Sistema de Gestión de Juegos
+    - Diseña una clase Juego con atributos como nombre, genero y plataforma.
+    - Crea clases derivadas como JuegoDeAccion y JuegoDeAventura que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+9 Sistema de Gestión de Clientes
+    - Crea una clase base Cliente con atributos como nombre, email y telefono.
+    - Define clases derivadas como ClienteRegular y ClienteVIP que sobrescriban un método calcularDescuento().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de cliente.
+
+10 Sistema de Gestión de Proyectos
+    - Diseña una clase Proyecto con atributos como nombre, fechaInicio y fechaFin.
+    - Crea clases derivadas como ProyectoInterno y ProyectoExterno que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+11 Sistema de Gestión de Eventos
+    - Crea una clase base Evento con atributos como nombre, fecha y lugar.
+    - Define clases derivadas como EventoConcierto y EventoDeportivo que sobrescriban un método mostrarDetalles().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de evento.
+
+12 Sistema de Gestión de Cursos
+    - Diseña una clase Curso con atributos como nombre, duracion y profesor.
+    - Crea clases derivadas como CursoOnline y CursoPresencial que agreguen atributos específicos.
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de curso.
+
+13 Sistema de Gestión de Recetas
+    - Crea una clase base Receta con atributos como nombre, ingredientes y tiempoDePreparacion.
+    - Define clases derivadas como RecetaVegetariana y RecetaVegana que sobrescriban un método mostrarIngredientes().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de receta.
+
+14 Sistema de Gestión de Viajes
+    - Diseña una clase Viaje con atributos como destino, duracion y costo.
+    - Crea clases derivadas como ViajeNacional y ViajeInternacional que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+15 Sistema de Gestión de Tareas
+    - Crea una clase base Tarea con atributos como nombre, fechaDeVencimiento y prioridad.
+    - Define clases derivadas como TareaPersonal y TareaLaboral que sobrescriban un método mostrarDetalles().   
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de tarea.
+
+16 Sistema de Gestión de Productos
+    - Diseña una clase Producto con atributos como nombre, precio y categoria.
+    - Crea clases derivadas como ProductoElectronico y ProductoRopa que agreguen atributos específicos.
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de producto.  
+
+17 Sistema de Gestión de Servicios
+    - Crea una clase base Servicio con atributos como nombre, precio y descripcion.
+    - Define clases derivadas como ServicioLimpieza y ServicioMantenimiento que sobrescriban un método mostrarDetalles().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de servicio. 
+
+18 Sistema de Gestión de Inmuebles
+    - Diseña una clase Inmueble con atributos como direccion, precio y tipo.
+    - Crea clases derivadas como Casa y Departamento que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase. 
+
+19 Sistema de Gestión de Compras    
+    - Crea una clase base Compra con atributos como producto, cantidad y precioTotal.
+    - Define clases derivadas como CompraOnline y CompraEnTienda que sobrescriban un método calcularDescuento().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de compra.
+
+20 Sistema de Gestión de Recibos
+    - Diseña una clase Recibo con atributos como fecha, monto y concepto.
+    - Crea clases derivadas como ReciboPago y ReciboCobro que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+21 Sistema de Gestión de Notas
+    - Crea una clase base Nota con atributos como titulo, contenido y fecha.
+    - Define clases derivadas como NotaDeTexto y NotaDeVoz que sobrescriban un método mostrarContenido().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de nota.  
+
+22 Sistema de Gestión de Mensajes   
+    - Diseña una clase Mensaje con atributos como remitente, destinatario y contenido.
+    - Crea clases derivadas como MensajeDeTexto y MensajeDeVoz que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+23 Sistema de Gestión de Archivos
+    - Crea una clase base Archivo con atributos como nombre, tamaño y tipo.
+    - Define clases derivadas como ArchivoDeTexto y ArchivoDeImagen que sobrescriban un método mostrarDetalles().   
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de archivo.
+
+24 Sistema de Gestión de Redes Sociales
+    - Diseña una clase Publicacion con atributos como autor, contenido y fecha.
+    - Crea clases derivadas como PublicacionDeTexto y PublicacionDeImagen que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+25 Sistema de Gestión de Mensajería
+    - Crea una clase base Mensaje con atributos como remitente, destinatario y contenido.
+    - Define clases derivadas como MensajeDeTexto y MensajeDeVoz que sobrescriban un método mostrarContenido().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de mensaje.
+
+26 Sistema de Gestión de Notificaciones
+    - Diseña una clase Notificacion con atributos como emisor, receptor y mensaje.
+    - Crea clases derivadas como NotificacionEmail y NotificacionSMS que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+27 Sistema de Gestión de Reservas
+    - Crea una clase base Reserva con atributos como cliente, fecha y hora.
+    - Define clases derivadas como ReservaDeHotel y ReservaDeVuelo que sobrescriban un método mostrarDetalles().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de reserva.
+
+28 Sistema de Gestión de Compras
+    - Diseña una clase Compra con atributos como producto, cantidad y precio.
+    - Crea clases derivadas como CompraOnline y CompraEnTienda que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+29 Sistema de Gestión de Pedidos
+    - Crea una clase base Pedido con atributos como cliente, productos y total.
+    - Define clases derivadas como PedidoEnLinea y PedidoEnTienda que sobrescriban un método calcularTotal().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de pedido.
+
+30 Sistema de Gestión de Eventos
+    - Diseña una clase Evento con atributos como nombre, fecha y lugar.
+    - Crea clases derivadas como EventoConcierto y EventoDeportivo que agreguen atributos específicos.
+    - Implementa un método mostrarDetalles() que se comporte de manera diferente en cada clase.
+
+31 Sistema de Gestión de Proyectos
+    - Crea una clase base Proyecto con atributos como nombre, fechaInicio y fechaFin.
+    - Define clases derivadas como ProyectoInterno y ProyectoExterno que sobrescriban un método mostrarDetalles().
+    - Implementa un método mostrarInformacion() que muestre detalles específicos de cada tipo de proyecto.
+    
+32 Sistema de Gestión de Usuarios
+    - Diseña una clase base Usuario con atributos como nombre, email y contraseña.
+    - Crea clases derivadas Administrador y Cliente que sobrescriban un método mostrarInformacion().
+    - Implementa un método autenticar() que valide las credenciales del usuario.
+
