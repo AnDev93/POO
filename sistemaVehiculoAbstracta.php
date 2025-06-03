@@ -1,4 +1,12 @@
 <?php
+// polimorfismo
+// El polimorfismo es un concepto de programación orientada a objetos que permite que diferentes clases respondan al mismo mensaje (o método) de manera específica para cada clase.
+// Esto significa que puedes tratar objetos de diferentes clases de manera uniforme, lo que facilita la extensibilidad y el mantenimiento del código.
+// En PHP, el polimorfismo se logra a través de la herencia y la sobrescritura de métodos.
+
+//// En este ejemplo, se muestra cómo se puede implementar el polimorfismo utilizando una clase abstracta y clases derivadas.
+// Las clases derivadas implementan métodos específicos que son llamados de manera uniforme a través de la clase base.
+
 // que es una clase abstracta?
 // Una clase abstracta es una clase que no puede ser instanciada directamente y está destinada a ser extendida por otras clases.
 // Las clases abstractas pueden contener métodos abstractos (sin implementación) y métodos concretos (con implementación).
