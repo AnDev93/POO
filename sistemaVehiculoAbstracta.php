@@ -4,7 +4,7 @@
 // Esto significa que puedes tratar objetos de diferentes clases de manera uniforme, lo que facilita la extensibilidad y el mantenimiento del código.
 // En PHP, el polimorfismo se logra a través de la herencia y la sobrescritura de métodos.
 
-//// En este ejemplo, se muestra cómo se puede implementar el polimorfismo utilizando una clase abstracta y clases derivadas.
+// En este ejemplo, se muestra cómo se puede implementar el polimorfismo utilizando una clase abstracta y clases derivadas.
 // Las clases derivadas implementan métodos específicos que son llamados de manera uniforme a través de la clase base.
 
 // que es una clase abstracta?
