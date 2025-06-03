@@ -1,4 +1,5 @@
 ejercicios para practicar:
+
 1 Sistema de Vehículos
     - Crea una clase base Vehiculo con propiedades como marca, modelo y velocidadMaxima.
     - Define métodos como acelerar() y frenar().
