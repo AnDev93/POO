@@ -74,6 +74,7 @@ class Auto extends VehiculoAbstracto {
             echo "El auto está frenando a " . $this->velocidadActual . " km/h.\n";
         }
     }
+    
     // Implementación del método mostrarInformacion
     // Este método muestra información específica del auto
     public function mostrarInformacion(): void {

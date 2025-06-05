@@ -1,0 +1,157 @@
+1. Sistema de Figuras Geométricas
+- Crea una clase abstracta Figura con un método abstracto calcularArea().
+- Define subclases Cuadrado, Circulo y Triangulo, cada una implementando calcularArea() con su propia fórmula.
+- Crea un array con instancias de cada figura y recórrelo llamando a calcularArea() en cada objeto.
+
+2. Sistema de Usuarios y Roles
+- Define una interfaz Usuario con un método acceder().
+- Implementa Usuario en clases Administrador, Editor y Visitante, cada una con su propia lógica de acceso.
+- Crea una función que reciba un objeto Usuario y llame a acceder().
+
+3. Sistema de Transporte
+- Crea una clase abstracta Transporte con un método abstracto desplazarse().
+- Define subclases Avion, Barco y Tren, cada una sobrescribiendo desplazarse() con su propia lógica.
+- Crea una función que reciba un objeto Transporte y lo haga desplazarse.
+
+4. Sistema de Gestión de Proyectos
+- Define una clase Proyecto con atributos nombre, presupuesto y estado.
+- Implementa un método para agregar tareas al proyecto.
+- Implementa un método para cambiar el estado del proyecto.
+- Crea una función que reciba un objeto Proyecto y lo imprima.
+
+5. Sistema de Gestión de Tiempo
+- Crea una clase Tiempo con atributos horas, minutos y segundos.
+- Implementa un método para sumar tiempo.
+- Implementa un método para restar tiempo.
+- Crea una función que reciba un objeto Tiempo y lo imprima.
+
+6. Sistema de Productos y Descuentos
+- Crea una clase abstracta Producto con un método abstracto calcularPrecioFinal().
+- Define subclases ProductoFisico, ProductoDigital y Suscripcion, cada una implementando calcularPrecioFinal() con su propia lógica de descuento.
+- Crea un array con instancias de cada tipo de producto y recórrelo llamando a calcularPrecioFinal() en cada objeto.
+
+7. Sistema de Herramientas de Dibujo
+- Define una interfaz HerramientaDibujo con un método dibujar().
+- Implementa HerramientaDibujo en clases Lapiz, Pincel y Spray, cada una con su propia lógica de dibujo.
+- Crea una función que reciba un objeto HerramientaDibujo y llame a dibujar().
+
+8. Sistema de Conversión de Archivos
+- Crea una clase abstracta ConvertidorArchivo con un método abstracto convertir().
+- Define subclases ConvertidorPDF, ConvertidorImagen y ConvertidorAudio, cada una sobrescribiendo convertir() con su propia lógica.
+- Crea una función que reciba un objeto ConvertidorArchivo y lo convierta.
+
+9. Sistema de Archivos y Formatos
+- Crea una clase abstracta Archivo con un método abstracto abrir().
+- Define subclases ArchivoTexto, ArchivoImagen y ArchivoAudio, cada una sobrescribiendo abrir() con su propia lógica.
+- Crea una función que reciba un objeto Archivo y lo abra.
+
+10. Sistema de Reportes
+- Define una interfaz Reporte con un método generar().
+- Implementa Reporte en clases ReportePDF, ReporteExcel y ReporteHTML, cada una con su propia lógica de generación.
+- Crea una función que reciba un objeto Reporte y llame a generar().
+
+11. Sistema de Envío de Mensajes
+- Crea una clase abstracta Mensaje con un método abstracto enviar().
+- Define subclases MensajeEmail, MensajeSMS y MensajeWhatsApp, cada una sobrescribiendo enviar() con su propia lógica.
+- Crea una función que reciba un objeto Mensaje y lo envíe.
+
+12. Sistema de Autenticación de Usuarios
+- Crea una clase abstracta Autenticacion con un método abstracto verificarCredenciales().
+- Define subclases AutenticacionPorEmail, AutenticacionPorTelefono y AutenticacionPorRedSocial, cada una sobrescribiendo verificarCredenciales() con su propia lógica.
+- Crea una función que reciba un objeto Autenticacion y lo verifique.
+
+13. Sistema de Gestión de Archivos
+- Define una interfaz Archivo con un método guardar().
+- Implementa Archivo en clases ArchivoTexto, ArchivoImagen y ArchivoVideo, cada una con su propia lógica de guardado.
+- Crea una función que reciba un objeto Archivo y llame a guardar().
+
+14. Sistema de Procesamiento de Pedidos
+- Crea una clase abstracta Pedido con un método abstracto procesar().
+- Define subclases PedidoOnline, PedidoFisico y PedidoExpress, cada una sobrescribiendo procesar() con su propia lógica.
+- Crea una función que reciba un objeto Pedido y lo procese.
+
+15. Sistema de Gestión de Documentos
+- Crea una clase abstracta Documento con un método abstracto imprimir().
+- Define subclases DocumentoPDF, DocumentoWord y DocumentoExcel, cada una sobrescribiendo imprimir() con su propia lógica.
+- Crea una función que reciba un objeto Documento y lo imprima.
+
+16. Sistema de Gestión de Empleados
+- Define una interfaz Empleado con un método calcularSalario().
+- Implementa Empleado en clases EmpleadoTiempoCompleto, EmpleadoMedioTiempo y EmpleadoFreelance, cada una con su propia lógica de cálculo de salario.
+- Crea una función que reciba un objeto Empleado y llame a calcularSalario().
+
+17. Sistema de Gestión de Inventario
+- Crea una clase abstracta Producto con un método abstracto obtenerPrecio().
+- Define subclases ProductoElectronico, ProductoRopa y ProductoAlimento, cada una sobrescribiendo obtenerPrecio() con su propia lógica.
+- Crea una función que reciba un objeto Producto y lo procese.
+
+18. Sistema de Gestión de Eventos
+- Crea una clase abstracta Evento con un método abstracto registrar().
+- Define subclases Conferencia, Concierto y Taller, cada una sobrescribiendo registrar() con su propia lógica.
+- Crea una función que reciba un objeto Evento y lo registre.
+
+19. Sistema de Gestión de Vehículos
+- Define una interfaz Vehiculo con un método arrancar().
+- Implementa Vehiculo en clases Auto, Moto y Camion, cada una con su propia lógica de arranque.
+- Crea una función que reciba un objeto Vehiculo y llame a arrancar().
+
+20. Sistema de Gestión de Pedidos
+- Crea una clase abstracta Pedido con un método abstracto procesar().
+- Define subclases PedidoOnline, PedidoFisico y PedidoExpress, cada una sobrescribiendo procesar() con su propia lógica.
+- Crea una función que reciba un objeto Pedido y lo procese.
+
+21. Sistema de Ataques Pokémon
+- Crea una clase abstracta Ataque con un método abstracto ejecutar().
+- Define subclases AtaqueFuego, AtaqueAgua y AtaquePlanta, cada una sobrescribiendo ejecutar() con su propia lógica de daño.
+- Crea una función que reciba un objeto Ataque y lo ejecute en un Pokémon.
+
+22. Sistema de Tipos Pokémon
+- Define una interfaz TipoPokemon con un método calcularEfectividad($tipoOponente).
+- Implementa TipoPokemon en clases TipoFuego, TipoAgua y TipoPlanta, cada una con su propia lógica de efectividad.
+- Crea una función que reciba dos objetos TipoPokemon y determine la ventaja en combate.
+
+23. Sistema de Habilidades RPG
+- Crea una clase abstracta Habilidad con un método abstracto usar().
+- Define subclases Curar, AumentarDefensa y AtaqueEspecial, cada una sobrescribiendo usar() con su propia lógica.
+- Crea una función que reciba un objeto Habilidad y lo aplique a un personaje.
+
+24. Sistema de Evolución Pokémon
+- Crea una clase abstracta Pokemon con un método abstracto evolucionar().
+- Define subclases Charmander, Squirtle y Bulbasaur, cada una sobrescribiendo evolucionar() con su propia lógica de evolución.
+- Crea una función que reciba un objeto Pokemon y lo haga evolucionar.
+
+25. Sistema de Clases de Personajes RPG
+- Define una interfaz ClasePersonaje con un método usarHabilidadEspecial().
+- Implementa ClasePersonaje en clases Guerrero, Mago y Arquero, cada una con su propia lógica de habilidad especial.
+- Crea una función que reciba un objeto ClasePersonaje y llame a usarHabilidadEspecial().
+
+26. Sistema de Batalla Pokémon
+- Crea una clase abstracta Pokemon con un método abstracto atacar().
+- Define subclases Pikachu, Charizard y Gengar, cada una sobrescribiendo atacar() con su propio tipo de ataque.
+- Crea una función que reciba dos objetos Pokemon y simule un combate.
+
+27. Sistema de Movimientos Pokémon
+- Crea una clase abstracta Movimiento con un método abstracto ejecutar().
+- Define subclases MovimientoFísico, MovimientoEspecial y MovimientoEstado, cada una sobrescribiendo ejecutar() con su propia lógica.
+- Crea una función que reciba un objeto Movimiento y lo aplique a un Pokémon.
+
+28. Sistema de Tipos de Ataque en RPG
+- Define una interfaz Ataque con un método calcularDaño($enemigo).
+- Implementa Ataque en clases AtaqueMágico, AtaqueFísico y AtaqueVeneno, cada una con su propia lógica de cálculo de daño.
+- Crea una función que reciba dos objetos Ataque y determine el daño en combate.
+
+29. Sistema de Equipamiento RPG
+- Crea una clase abstracta Equipo con un método abstracto usar().
+- Define subclases Armadura, Arma y Amuleto, cada una sobrescribiendo usar() con su propia lógica.
+- Crea una función que reciba un objeto Equipo y lo aplique a un personaje.
+
+
+
+
+
+
+
+
+
+
+
